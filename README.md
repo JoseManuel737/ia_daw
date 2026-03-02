@@ -22,29 +22,42 @@ Explica el flujo de forma ordenada:
 - Análisis/BI (opcional):Cuadros de mando de ventas, funnels de conversión, análisis de cohortes y segmentación de clientes.
 
 ## 4) IA aplicada: modelo y decisión
-- Tipo de IA/técnica (clasificación, predicción, recomendación, anomalías, NLP...):
-- Entrada del modelo (qué datos usa):
-- Salida del modelo (qué produce):
-- Decisión que habilita (qué hace la empresa con esa salida):
+- Tipo de IA/técnica (clasificación, predicción, recomendación, anomalías, NLP...):Sistema de recomendación (modelos de recomendación híbridos) y modelo de predicción de probabilidad de compra.
+- Entrada del modelo (qué datos usa):Historial de navegación, compras anteriores, características de los productos, contexto (hora, dispositivo, canal), segmentación del cliente.
+- Salida del modelo (qué produce):Lista ordenada de productos recomendados y probabilidad de compra o de clic para cada usuario en cada sesión.
+- Decisión que habilita (qué hace la empresa con esa salida):Decisión que habilita (qué hace la empresa con esa salida):Personalizar la página de inicio, el carrusel de productos, los emails y las notificaciones push para mostrar los productos con mayor probabilidad de conversión.
 
 ## 5) Rentabilidad: KPIs antes/después (mínimo 3)
 KPI 1 (ingresos/coste/eficiencia):
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+- Antes:2,0 % de las sesiones terminan en compra.
+- Después:2,8 % de las sesiones terminan en compra.
+- Por qué mejora la rentabilidad:Con el mismo tráfico se generan más pedidos, aumentando los ingresos sin incrementar proporcionalmente el gasto en marketing.
 
 KPI 2:
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+- Antes:45 € por pedido.
+- Después:52 € por pedido.
+- Por qué mejora la rentabilidad:Las recomendaciones cruzadas (cross-selling) y complementarias (upselling) hacen que el cliente añada más productos o de mayor precio.
 
 KPI 3:
-- Antes:
-- Después:
-- Por qué mejora la rentabilidad:
+- Antes:Alto CAC porque se depende mucho de campañas de pago para captar nuevos clientes.
+- Después:CAC efectivo menor gracias a mayor recurrencia y mejor monetización de clientes existentes.
+- Por qué mejora la rentabilidad:Se aprovecha mejor cada cliente captado, aumentando el LTV (valor de vida del cliente) y reduciendo la presión sobre el presupuesto de marketing.
+
+
 
 ## 6) Diagrama del pipeline (ASCII o Mermaid)
-(Pega aquí el diagrama)
+flowchart LR
+    A[Usuarios web/app] --> B[Ingesta de eventos<br/>logs de clics, vistas, búsquedas]
+    C[Base de datos transaccional<br/>compras, devoluciones] --> B
+    B --> D[Limpieza y normalización]
+    D --> E[Data Lake]
+    E --> F[Data Warehouse / ETL]
+    F --> G[Feature Engineering<br/>RFM, segmentos, contexto]
+    G --> H[Modelo IA<br/>Recomendación y predicción]
+    H --> I[API de recomendaciones]
+    I --> J[Front web/app<br/>página personalizada]
+    F --> K[BI / Dashboards<br/>KPIs de negocio]
+
 
 ## 7) Riesgos y mitigación
 Riesgo 1:
