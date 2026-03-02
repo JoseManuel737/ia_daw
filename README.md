@@ -60,18 +60,23 @@ flowchart LR
 
 
 ## 7) Riesgos y mitigación
-Riesgo 1:
-- Mitigación 1:
+Riesgo 1:Dependencia excesiva de datos personales y posible incumplimiento de privacidad (RGPD).
+- Mitigación 1:Aplicar anonimización y seudonimización, minimizar datos, obtener consentimientos claros, auditorías de cumplimiento y políticas de retención de datos.
 
-Riesgo 2:
-- Mitigación 2:
+Riesgo 2:Sesgos en las recomendaciones (sobreexposición de ciertos productos o marcas, burbuja de contenido).
+- Mitigación 2:Monitorizar la diversidad de recomendaciones, introducir reglas de negocio (exploración), revisar periódicamente el modelo y combinar métricas de negocio con métricas de equidad.
 
 ## 8) Valoración (criterio c): importancia presente y futura de la IA (10–15 líneas)
-- Importancia actual (hoy):
-- Importancia futura (3–5 años):
-- Condiciones/limitaciones (datos, costes, regulación, ética, seguridad, empleo):
-- Conclusión razonada:
+- Importancia actual (hoy):Hoy la IA en e-commerce es un factor diferencial clave: permite personalizar la experiencia, mejorar la conversión y competir frente a grandes plataformas globales. Las empresas que no usan IA en recomendaciones, segmentación o pricing suelen quedar en desventaja.
+- Importancia futura (3–5 años):En los próximos años la IA será todavía más central, con modelos más contextuales y multimodales (texto, imagen, voz) que integrarán todo el recorrido del cliente. La frontera ya no será “usar o no IA”, sino la calidad de los datos, la rapidez de despliegue y la capacidad de integrar IA en todos los procesos.
+- Condiciones/limitaciones (datos, costes, regulación, ética, seguridad, empleo):El éxito depende de disponer de datos suficientes, de calidad y bien gobernados. Los costes de infraestructura en la nube y de talento especializado pueden ser elevados, especialmente para pymes. Además, la regulación (como el RGPD y futuras normas de IA) exigirá transparencia, explicabilidad y seguridad. Éticamente, habrá que evitar manipulación excesiva, respetar la privacidad y gestionar el impacto en el empleo, orientando a los equipos hacia tareas de mayor valor añadido.
+- Conclusión razonada:La IA aplicada al Big Data en este caso no es solo una mejora técnica, sino una palanca estratégica de competitividad y rentabilidad. Las empresas que inviertan en datos, modelos y gobernanza responsable podrán ofrecer experiencias más relevantes, optimizar recursos y adaptarse mejor a un entorno cambiante. Quedarse fuera de esta transformación implicará perder cuota de mercado frente a competidores más data-driven.
+
+
 
 ## 9) Fuentes oficiales (mín. 2)
-- Big Data/analítica (enlace oficial):
-- IA/técnica/modelo (enlace oficial):
+- Big Data/analítica (enlace oficial):https://www.ibm.com/analytics/big-data-analytics (ibm.com in Bing)
+https://data.europa.eu
+- IA/técnica/modelo (enlace oficial):https://developers.google.com/machine-learning/recommendation (developers.google.com in Bing)
+https://openai.com/research (investigación general en modelos de IA)
+
