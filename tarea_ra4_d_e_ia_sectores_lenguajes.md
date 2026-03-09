@@ -90,5 +90,7 @@ flowchart LR
 - Qué importancia tiene esto para DAW/DAM: Los desarrolladores deben saber consumir APIs de IA, integrar modelos en aplicaciones web/escritorio y entender las limitaciones y riesgos para diseñar soluciones responsables y útiles.
 
 ## 8) Fuentes oficiales (mín. 2)
-- Fuente 1 (sectores / aplicación IA):
-- Fuente 2 (lenguajes / ecosistema técnico):
+- Fuente 1 (sectores / aplicación IA):Comisión Europea — informes sobre adopción de IA en sectores económicos
+OCDE (OECD) — estudios sobre impacto de la IA en sanidad, finanzas y servicios.
+- Fuente 2 (lenguajes / ecosistema técnico):Documentación oficial de Python (python.org) y PyTorch/TensorFlow.
+Documentación de Java (Oracle) y Node.js/JavaScript (ECMAScript, MDN) para integración de servicios de IA.
