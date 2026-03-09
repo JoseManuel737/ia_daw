@@ -39,43 +39,55 @@
 - Ejemplos de uso:Modelos de clasificación, redes neuronales, APIs de IA integradas en aplicaciones web.
 
 ### Lenguaje 2
-- Nombre:
-- Uso principal en IA:
-- Ventajas:
-- Ejemplos de uso:
+- Nombre:R
+- Uso principal en IA:Análisis estadístico, modelos predictivos, visualización de datos
+- Ventajas:Muy fuerte en estadística, muchas librerías para análisis de datos, integración con entornos de investigación
+- Ejemplos de uso:Modelos de regresión, análisis exploratorio de datos, informes de datos para negocio.
 
 ### Lenguaje 3
-- Nombre:
-- Uso principal en IA:
-- Ventajas:
-- Ejemplos de uso:
+- Nombre:Java
+- Uso principal en IA:Integración de modelos en sistemas empresariales, aplicaciones backend escalables
+- Ventajas:Rendimiento, robustez, multiplataforma, usado en grandes empresas; existen librerías de ML (DL4J, Weka)
+- Ejemplos de uso:Sistemas de recomendación en grandes plataformas, motores de decisión integrados en microservicios.
 
 ### Lenguaje 4
-- Nombre:
-- Uso principal en IA:
-- Ventajas:
-- Ejemplos de uso:
+- Nombre:JavaScript / TypeScript
+- Uso principal en IA:Integración de IA en aplicaciones web y front-end, consumo de APIs de IA
+- Ventajas:Corre en el navegador y en el servidor (Node.js), ideal para DAW, fácil integración con servicios REST/GraphQL
+- Ejemplos de uso:Chatbots en páginas web, paneles que consumen modelos de IA vía API, interfaces interactivas para modelos de recomendación.
 
 ## 4) Relación entre sectores, tipo de IA y lenguaje
-| Sector | Aplicación de IA | Tipo de IA/técnica | Lenguaje recomendado | Justificación |
-|--------|------------------|--------------------|----------------------|---------------|
-|        |                  |                    |                      |               |
-|        |                  |                    |                      |               |
-|        |                  |                    |                      |               |
+Sector	Aplicación de IA	Tipo de IA/técnica	Lenguaje recomendado	Justificación
+Sanidad	Diagnóstico por imagen	Deep learning, visión por computador	Python	Amplio soporte en librerías de visión y redes neuronales.
+Banca y finanzas	Detección de fraude y scoring	Machine learning supervisado	Python / Java	Python para modelado; Java para integración en sistemas críticos.
+Comercio electrónico	Recomendación de productos y personalización	Sistemas de recomendación, ML	Python / JavaScript	Python para entrenar modelos; JS para integrarlos en la web (DAW).
 
 ## 5) Diagrama (ASCII o Mermaid)
-(Pega aquí el diagrama)
+flowchart LR
+    A[Datos del sector] --> B[Entrenamiento modelo IA]
+    B --> C[Modelo desplegado en servidor]
+    C --> D[Aplicación DAW/DAM]
+    D --> E[Usuario final]
+
+    subgraph Lenguajes
+        P[Python: entrenamiento]
+        J[Java/JS: integración]
+    end
+
+    B --- P
+    C --- J
+
 
 ## 6) Riesgos y mitigación
-- Riesgo 1:
-- Mitigación 1:
-- Riesgo 2:
-- Mitigación 2:
+- Riesgo 1:Sesgos en los datos que generan decisiones injustas (por ejemplo, en banca o sanidad).
+- Mitigación 1:Auditoría de datos, revisión ética, uso de métricas de equidad y validación por equipos multidisciplinares.
+- Riesgo 2:Falta de transparencia y comprensión del modelo (caja negra).
+- Mitigación 2:Uso de técnicas de explicabilidad (XAI), documentación clara, límites de uso y supervisión humana en decisiones críticas.
 
 ## 7) Conclusión
-- Qué sectores destacan más:
-- Qué lenguajes aparecen con más frecuencia:
-- Qué importancia tiene esto para DAW/DAM:
+- Qué sectores destacan más:Sanidad, finanzas y comercio electrónico concentran gran parte de las aplicaciones prácticas de IA hoy en día.
+- Qué lenguajes aparecen con más frecuencia:Python es el más dominante en IA, complementado por Java, R y JavaScript según el contexto.
+- Qué importancia tiene esto para DAW/DAM: Los desarrolladores deben saber consumir APIs de IA, integrar modelos en aplicaciones web/escritorio y entender las limitaciones y riesgos para diseñar soluciones responsables y útiles.
 
 ## 8) Fuentes oficiales (mín. 2)
 - Fuente 1 (sectores / aplicación IA):
