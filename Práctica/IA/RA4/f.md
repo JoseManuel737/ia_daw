@@ -69,5 +69,9 @@ Usuario → Navegación → Recogida de datos → Limpieza → Transformación
 - Mitigación 2: Anonimización, cumplimiento RGPD, consentimiento explícito.
 
 ## 8) Fuente
+    Documentación general sobre sistemas de recomendación (libros, papers, cursos de ML).
+
+   
+
 
 
