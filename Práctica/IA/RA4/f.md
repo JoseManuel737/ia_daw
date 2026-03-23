@@ -71,7 +71,7 @@ Usuario → Navegación → Recogida de datos → Limpieza → Transformación
 ## 8) Fuente
     Documentación general sobre sistemas de recomendación (libros, papers, cursos de ML).
 
-   
+    Experiencia práctica en e‑commerce y machine learning.
 
 
 
